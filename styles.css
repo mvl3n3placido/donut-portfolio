@@ -257,13 +257,13 @@ footer img {
     width: 100%;
     max-width: 1060px; /*width is 100% up until this point -1060px*/
     margin: 0 auto;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   .leading {
     margin: 20px 0;
   }
   .site-nav {
-    margin: 0 20px;
+    padding: 0 20px;
   }
   .site-nav h1 {
     grid-column: 1/3;
