@@ -23,8 +23,12 @@ li {
 body {
   background: var(--primary);
   color: var(--off-white);
-  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .button {
   background: none;
